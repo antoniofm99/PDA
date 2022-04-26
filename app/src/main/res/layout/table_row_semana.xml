@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tbSemana"
+        tools:visibility="visible"
+        android:layout_width="401dp"
+        android:layout_height="403dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23">
+
+        <TableRow
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Lunes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:shadowColor="#6E0303"
+                android:text="Lunes"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit1"
+                android:layout_width="92dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Martes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Martes"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Miercoles"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Miércoles"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Jueves"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Jueves"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Viernes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Viernes"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Sábado"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Sábado"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/Domingo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#750505"
+                android:text="Domingo"
+                android:textColor="#FFFFFF" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="Nombrar día (ej. pecho y biceps)" />
+
+            <ImageButton
+                android:id="@+id/callEdit7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
